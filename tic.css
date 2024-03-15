@@ -1,0 +1,135 @@
+*{
+margin: 0px;
+padding:0px;
+font-family: cursive;
+background-color: #1f2833;
+cursor: pointer;
+justify-content: center;
+}
+#heading{
+  font-size: 30px;
+  text-shadow: 2px -2px 7cap rgb(13, 172, 200);
+}
+.playerbox{
+    height:80px;
+    width: 100%;
+    background-color: red;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+ 
+}
+
+.container{
+    position: relative;
+    top:47px;
+    left:35%;
+    height:450px;
+    width:450px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    height:300px;
+    display: flex;
+}
+.box{
+    border: 2px solid white;
+    height:fill;
+    width:200px;
+    font-size:100px;
+    text-align: center;
+    color:white;
+    text-shadow: 4px 4px 15px rgb(89, 218, 89);
+
+}
+
+.box0{
+  border-top:none;
+  border-left:none;
+
+}
+
+.box1{
+  border-top:none;
+}
+
+.box1{
+  border-top:none;
+}
+
+.box2{
+  border-right:none;
+  border-top:none;
+}
+
+.box3{
+  border-left:none;
+}
+
+
+
+.box5{
+  border-right:none;
+}
+
+.box6{
+  border-left:none;
+  border-bottom:none;
+}
+
+.box7{
+  border-bottom:none;
+}
+.box8{
+  border-bottom:none;
+  border-right:none;
+}
+
+
+.restart{
+
+   height:50px;
+   width:100px;
+   position: relative;
+   top:54px;
+   left:45%;
+   line-height:50px;
+   font-size: 40px;
+   border-radius: 20px;
+   color:white;
+   text-shadow:5px  4px 10px rgb(142, 16, 142);
+
+
+}
+
+
+@media (width<=600px) {
+.playerbox{
+  height: 15vh;
+  font-size: 10vw;
+  padding-top: 4vw;
+
+}
+body{
+  /* background-color: yellow !important; */
+}  
+.container{
+ left:5px;
+ max-width:350px;
+ max-height:350px;
+/* background-color: pink !important; */
+}
+.box{
+  font-size: 15vw;
+  padding:5px;
+}
+.container div{
+  background-color: transparent;
+}
+.restart{
+  top:14vh;
+  left:30vw;
+}
+
+}
